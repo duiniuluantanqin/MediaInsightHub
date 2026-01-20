@@ -76,6 +76,8 @@ FLV 是一种流媒体封装格式，结构简单，常用于直播场景。Medi
 - `framerate`：帧率
 - `videodatarate`/`audiodatarate`：码率
 
+  <img width="3804" height="1748" alt="image" src="https://github.com/user-attachments/assets/299dc7fc-bd88-43b5-8113-19bb1bc151c1" />
+
 ---
 
 ### MP4 / fMP4
@@ -108,6 +110,8 @@ MP4 基于 ISO Base Media File Format，采用 Box（也称 Atom）嵌套结构�
 - `avcC`：H.264 解码配置，包含 SPS/PPS
 - `hvcC`：H.265 解码配置，包含 VPS/SPS/PPS
 - `esds`：AAC 音频配置，包含 AudioSpecificConfig
+
+<img width="3814" height="1744" alt="image" src="https://github.com/user-attachments/assets/4af6b454-f385-4660-81a8-2a84dc215757" />
 
 ---
 
@@ -175,6 +179,8 @@ MPEG-TS 是广播电视和流媒体常用的传输流格式，采用固定 188 �
 - `PES_packet_length`：包长度
 - `PTS`/`DTS`：显示/解码时间戳
 
+<img width="3824" height="1748" alt="image" src="https://github.com/user-attachments/assets/9a53d69b-1402-4094-841d-dd5c9a5be9d1" />
+
 ---
 
 ### MPEG-PS
@@ -201,6 +207,8 @@ MPEG-PS 是节目流格式，常用于 DVD 和监控录像（如 GB28181）：
 
 **PES 包**
 与 MPEG-TS 中的 PES 结构相同
+
+<img width="3824" height="1744" alt="image" src="https://github.com/user-attachments/assets/304a6ef9-6716-4edf-b1d5-fe8ef5a916b0" />
 
 ---
 
@@ -302,6 +310,8 @@ MP3 采用帧结构，每帧独立可解码：
 **帧大小计算**
 - Layer I: `(12 * bitrate / samplerate + padding) * 4`
 - Layer II/III: `144 * bitrate / samplerate + padding`
+
+<img width="3818" height="1744" alt="image" src="https://github.com/user-attachments/assets/a4a5ec12-31f4-44a3-a809-b2362f7180f0" />
 
 ---
 
