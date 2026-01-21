@@ -35,6 +35,8 @@ Supports mainstream audio/video container formats, including:
 - **Frame Interval Chart**: Analyzes frame interval distribution to quickly identify stuttering or frame drops
 - **Frame Type Statistics**: I/P/B frame ratios at a glance
 
+<img width="1780" height="1726" alt="image" src="https://github.com/user-attachments/assets/abbc30c4-688f-4443-ada2-2f3da1268cfa" />
+
 ---
 
 ## Detailed Format Analysis
@@ -76,7 +78,7 @@ Each FLV Tag contains the following fields:
 - `framerate`: Frame rate
 - `videodatarate`/`audiodatarate`: Bitrate
 
-<img width="3804" height="1748" alt="image" src="https://github.com/user-attachments/assets/299dc7fc-bd88-43b5-8113-19bb1bc151c1" />
+<img width="2282" height="1754" alt="image" src="https://github.com/user-attachments/assets/c78d64ec-3229-4326-a4cd-488f61dace17" />
 
 ---
 
@@ -111,7 +113,6 @@ MP4 is based on ISO Base Media File Format, using nested Box (also called Atom) 
 - `hvcC`: H.265 decoder configuration, contains VPS/SPS/PPS
 - `esds`: AAC audio configuration, contains AudioSpecificConfig
 
-<img width="3814" height="1744" alt="image" src="https://github.com/user-attachments/assets/4af6b454-f385-4660-81a8-2a84dc215757" />
 
 ---
 
@@ -140,6 +141,8 @@ MKV uses EBML (Extensible Binary Meta Language) structure, a binary format simil
 - `Cluster`: Data cluster, contains actual media data
   - `Timestamp`: Cluster timestamp
   - `SimpleBlock`/`BlockGroup`: Data blocks
+
+<img width="2472" height="1734" alt="image" src="https://github.com/user-attachments/assets/4b792ac4-f79f-4a67-94ab-4b6e0e64ee5c" />
 
 ---
 
@@ -179,7 +182,7 @@ MPEG-TS is a transport stream format commonly used in broadcast television and s
 - `PES_packet_length`: Packet length
 - `PTS`/`DTS`: Presentation/Decoding timestamps
 
-<img width="3824" height="1748" alt="image" src="https://github.com/user-attachments/assets/9a53d69b-1402-4094-841d-dd5c9a5be9d1" />
+<img width="3796" height="1258" alt="image" src="https://github.com/user-attachments/assets/a060749e-842f-45d5-9fbf-13fde9d3439c" />
 
 ---
 
@@ -208,7 +211,8 @@ MPEG-PS is a program stream format, commonly used for DVDs and surveillance reco
 **PES Packet**
 Same structure as PES in MPEG-TS
 
-<img width="3824" height="1744" alt="image" src="https://github.com/user-attachments/assets/304a6ef9-6716-4edf-b1d5-fe8ef5a916b0" />
+<img width="3806" height="1722" alt="image" src="https://github.com/user-attachments/assets/6be06d27-6ea9-4ff0-8550-8f122db35b2c" />
+
 
 ---
 
@@ -311,7 +315,7 @@ MP3 uses a frame structure where each frame is independently decodable:
 - Layer I: `(12 * bitrate / samplerate + padding) * 4`
 - Layer II/III: `144 * bitrate / samplerate + padding`
 
-<img width="3818" height="1744" alt="image" src="https://github.com/user-attachments/assets/a4a5ec12-31f4-44a3-a809-b2362f7180f0" />
+<img width="3808" height="1730" alt="image" src="https://github.com/user-attachments/assets/f0afb4d4-01ad-45d0-9751-8108cf0c6e04" />
 
 ---
 
