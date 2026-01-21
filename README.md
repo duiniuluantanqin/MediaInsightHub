@@ -2,6 +2,8 @@
 
 [中文说明](README_zh.md)
 
+> The program is continuously being optimized. If you encounter any issues, please upload the source file to the issue section, and I will review and resolve them regularly.
+
 ## Introduction
 
 MediaInsight is an online visual multimedia format analysis tool designed for audio/video developers and learners. Without installing any software, you can deeply analyze the internal structure of various media files directly in your browser. Through intuitive tree structures, hexadecimal data correlation, chart statistics, and other features, it helps users quickly understand the principles of audio/video container formats and locate various issues encountered during development.
